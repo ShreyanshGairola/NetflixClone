@@ -1,7 +1,14 @@
-const App = () => {
-const Name = "Shreyansh";
 
-  return (<h1>Hello World {Name}</h1>);
+import './App.css';
+import Nav from './components/Nav';
+
+const App = () => {
+
+  return (
+    <div>
+      <Nav/>
+    </div>
+  );
 };
 
 export default App;

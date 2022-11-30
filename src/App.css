@@ -1,1 +1,8 @@
-
+div.Card{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 5px;
+}
