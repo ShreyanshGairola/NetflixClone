@@ -8,7 +8,7 @@ nav{
 }
 
 .nav_logo{
-    height: 2.8rem;
+    height: 3.5rem;
 }
 
 
@@ -24,8 +24,16 @@ section{
 .nav_left{
     display: flex;
     width: 85%;
+    height: 100%;
+    
 }
 
+.nav_links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .nav_links a{
     color: white;
@@ -46,5 +54,4 @@ section{
     justify-content: space-between;
     width: 10rem;
     flex: 1;
-    
 }
