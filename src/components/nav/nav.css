@@ -7,11 +7,6 @@ nav{
     font-size: 0.9rem;
 }
 
-.nav_logo{
-    height: 3.5rem;
-}
-
-
 section{
     width: 90%;
     height: 100%;
@@ -21,11 +16,19 @@ section{
     margin-inline: auto;
 }
 
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo{
+    height: 3.4rem;
+}
+
 .nav_left{
     display: flex;
     width: 85%;
     height: 100%;
-    
 }
 
 .nav_links{
